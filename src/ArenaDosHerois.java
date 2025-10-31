@@ -112,7 +112,7 @@ public class ArenaDosHerois {
 
         Heroi heroi = new Heroi(nomeHeroi, 60, 15, 5);
 
-        String[] nomesInimigos = {"Goblin", "Orc", "Troll", "Cavaleiro Sombrio"};
+        String[] nomesInimigos = {"Goblin", "Orc", "Troll", "Cavaleiro Sombrio", "Look"};
         String nomeInimigo = nomesInimigos[rand.nextInt(nomesInimigos.length)];
         Inimigo inimigo = new Inimigo(nomeInimigo, 50, 12, 3);
 
